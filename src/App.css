@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  justify-content: left;
 }
-
+.App2 {
+  text-align: left;
+  justify-content: left;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +16,36 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.nav-logo {
+  float: left !important;
+  margin-top: 10 px !important;
+}
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 0px; /* remove bootstrap padding on floated image containers -  */
+}
+.navbar-brand {
+  display: flex;
+  align-items: right;
+}
+.navbar-brand > img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px 7px 0; /* padding for image ... text needs no padding */
+}
 
+.navbar-toggle {
+  z-index: 1;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

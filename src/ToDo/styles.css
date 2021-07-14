@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+}
+.wrapper {
+  padding: 2px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content {
+  max-width: 1000px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.subtle {
+  /* display: flex; */
+  justify-content: left;
+  align-items: left;
+  max-width: 800px;
+}
+.line {
+  text-decoration: line-through;
+}
+.post {
+  border-bottom: 1px solid #ccc;
+  justify-content: left;
+  align-items: left;
+  font-size: 18.8px;
+}
+
+.loading {
+  text-align: center;
+}
+.addTodo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-input {
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
